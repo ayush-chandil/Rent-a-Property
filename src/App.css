@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.products_main {
+  margin-top:100px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.heading h1 {
+  font-size: 48px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.heading p {
+  font-size: 24px;
+  color: grey;
+}
+
+@media only screen and (max-width: 1080px) {
+  .heading h1 {
+    font-size: 40px;
+  }
+
+  .heading p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .heading h1 {
+    font-size: 24px;
+  }
+
+  .heading p {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,103 @@
+.agents {
+    margin-top: 64px;
+    text-align: center;
+}
+
+.grids {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gr {
+    width: 320px;
+    margin-top: 40px;
+    background: #fff;
+    border: 2px solid rgba(213, 6, 6, 0.1);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 48px;
+}
+
+.gr:last-child{
+    margin-right: 0px;
+}
+
+.list {
+    position: absolute;
+    left: 10px;
+    top:10px;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    background: #ff6922;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#im {
+    margin-top: 80px;
+    width: 145px;
+    height: 135px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#fb{
+    color:blue;
+}
+
+#li{
+    color:aqua;
+}
+
+#tw {
+    color:lightblue;
+}
+
+#insta {
+    color:pink;
+}
+
+#locate {
+    color: #2d3954;
+    font-size: 16px;
+}
+
+#name {
+    color: black;
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 6px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-brands {
+    margin: 20px 12px 30px 12px;
+    font-size: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:1080px) {
+    .grids{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .gr{
+        margin-right: 0px;
+    }
+}

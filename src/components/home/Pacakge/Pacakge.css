@@ -1,0 +1,121 @@
+.pack {
+    margin-top: 64px;
+    text-align: center;
+    padding: 0px 50px;
+    margin-bottom: 40px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.types {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.amount {
+    margin-top: 6px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.user {
+    font-size: 16px;
+}
+
+.grp {
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 560px;
+    cursor: pointer;
+}
+
+.grp:hover {
+    transform: scale(1.06);
+    transition: 0.4s ease;
+}
+
+.lists {
+    padding: 0px 20px;
+}
+
+.names {
+    padding-top: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#fontawesome {
+    margin-right: 10px;
+}
+
+.fa-solid {
+    color: green;
+    width: 20px;
+}
+
+.fa-x {
+    color: red;
+    width: 20px;
+}
+
+.bttnn{
+    display: flex;
+    justify-content: center;
+}
+
+#start {
+    background: white;
+    color: rgb(39, 174, 96);
+    border: 5px solid #27ae601f;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 20px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+#strt {
+    background: rgb(39, 174, 96);
+    color: white;
+    border: 5px solid #27ae601f;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 20px;
+    margin-top: 20px;
+    width: 200px;
+}
+
+@media only screen and (max-width:640px) {
+    .pack {
+        padding: 0px 20px;
+    }
+
+    .names {
+        font-size: 12px;
+    }
+
+    #fontawesome {
+        margin-right: 8px;
+    }
+
+    .lists {
+        padding: 0px 40px;
+    }
+}

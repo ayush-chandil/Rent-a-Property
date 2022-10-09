@@ -1,0 +1,56 @@
+.Main {
+  background-color: white;
+  margin-top: 64px;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.bx {
+  height: 190px;
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  margin-right: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 32px;
+}
+
+#thumbnail {
+  width: 70px;
+}
+
+.head {
+  margin-top: 12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.property {
+  font-size: 12px;
+}
+
+
+@media only screen and (max-width:640px) {
+  .boxes {
+    margin-left:10px;
+  }
+
+  .boxes{
+    display: grid;
+    grid-template-columns: auto;
+  }
+  
+  .bx{
+    margin-right: 0px;
+  }
+}
