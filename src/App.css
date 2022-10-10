@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); */
+
 
 * {
   padding: 0;
@@ -18,8 +18,9 @@ body {
 
 .flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  flex-wrap:wrap;
   
 }
 
