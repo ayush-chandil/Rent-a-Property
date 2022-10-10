@@ -14,21 +14,7 @@ function Product() {
           <div className='action'>
             <span>City/Street</span>
             <input type="text" placeholder='Location ' onChange={e => setSearchTerm(e.target.value)}></input>
-
-            {list.filter((val) => {
-              if (searchTerm == "") {
-                return val
-               
-              }
-              else if (val.location.toLowerCase().includes(searchTerm.toLowerCase())) {
-                console.log(val);
-                return val;
-              }
-             
-           }).map((val, key) => {
-              return false;
-            })}
-          </div>
+            </div>
 
           <div className='action'>
             <span>Property Type</span>
